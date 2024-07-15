@@ -1,0 +1,56 @@
+/* .video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
+
+body {
+    background-color: #1c0071;
+}
+
+.vidbar {
+    display: flex;
+    padding-bottom: 2vh;
+}
+
+.vid1 {
+    margin-top: 4vh;
+}
+
+.vid2 {
+    margin-top: 4vh;
+}
+
+.vid3 {
+    margin-top: 4vh;
+}
+
+.forYou {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 5.58vw;
+    margin-right: 5.58vw;
+}
+
+.Desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.descTitle {
+    align-self: center;
+}
+
+.descContent{
+    align-self: center;
+}

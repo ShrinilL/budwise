@@ -1,0 +1,114 @@
+.modifyBudButton {
+    align-self: flex-end;
+    position: relative;
+    right: 10vw;
+    background-color: #170b4d;
+    border-top-right-radius: 4vh;
+    border-top-left-radius: 4vh;
+}
+
+.modifyBud {
+    width: 7vw;
+    height: 5vh;
+    margin: 2vh;
+    /* background-color: #a84c53; */
+    background-color: #e54f5c;
+    font-family: 'exo 2', sans-serif;
+    align-self:flex-end;
+    border: 0.1vw solid gray;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 1.5vh;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-width: 0.2vw;
+}
+
+th {
+    height: 4vh;
+    padding-bottom: 2vh;
+}
+
+td {
+    height: 5vh;
+    text-align: center;
+}
+
+.table {
+    align-self: center;
+    width: 70vw;
+    background-color: #1c0b4d;
+    /* height: 50vh; */
+    display: flex;
+}
+
+.SrNo {
+    width: 5vw;
+}
+
+.Expense {
+    width: 45vw;
+}
+
+.Cost {
+    width: 20vw;
+    /* width: 60vw; */
+}
+
+.Category {
+    width: 17vw;
+}
+
+.total {
+    font-weight: 780;
+}
+
+body {
+    background-color: #1c0071;
+}
+
+.remove {
+    background-color: #e54f5c;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    border-radius: 0.5vw;
+    font-size: small;
+    font-weight: 700;
+}
+
+.expenseBox {
+    width: 30vw;
+    /* background-color: rgba(60, 10, 99, 0.501); */
+    /* color: skyblue; */
+    text-align: center;
+    background-color: rgb(133, 172, 208);
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 0.55vw;
+}
+
+.costBox {
+    width: 10vw;
+    /* background-color: rgba(60, 10, 99, 0.501); */
+    background-color: #85acd0;
+    /* color: skyblue; */
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 0.55vw;
+}
+
+.categoryBox {
+    width: 10vw;
+    /* background-color: rgba(60, 10, 99, 0.501); */
+    background-color: rgb(133, 172, 208);
+    /* color: skyblue; */
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 0.55vw;
+}
